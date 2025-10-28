@@ -8,3 +8,15 @@ meta {
 if (name:VAR_ITEMS_TO_HIDE) {
     hidden = true;
 }
+
+/*@ define:module:my_first_module
+name: My First Module
+subtitle: A short phrase
+description: |
+    A long description; shown when the module is expanded.
+
+    Can use line breaks and markdown for formatting, including [links](http://google.com),
+    - lists
+
+    # and various heading sizes
+*/
