@@ -9,7 +9,7 @@ if (name:VAR_ITEMS_TO_HIDE) {
     hidden = true;
 }
 
-/*@ define:module:my_first_module
+@ define:module:my_first_module
 name: My First Module
 subtitle: A short phrase
 description: |
@@ -19,4 +19,8 @@ description: |
     - lists
 
     # and various heading sizes
-*/
+
+
+@ define:input:my_first_module
+type: stringlist
+label: Items to Hide
