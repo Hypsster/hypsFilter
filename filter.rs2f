@@ -2,3 +2,9 @@ meta {
     name = "Hyps Filter"
     description = "My first filter"
 }
+
+#define VAR_ITEMS_TO_HIDE[]
+
+if (name:VAR_ITEMS_TO_HIDE) {
+    hidden = true;
+}
